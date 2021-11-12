@@ -7,11 +7,7 @@
 <script language="VB" runat=server>
   Sub Page_Load(sender As Object, e As EventArgs)
 
-  ' RSS Feed URL.
-  '   Dim strXmlSrc  As String = "http://cmsprod03:81/cgi-bin/javascripts/Child-Recalls-RSS.xml"
-  '   Dim strXmlSrc  As String = "https://www.cpsc.gov/Newsroom/CPSC-RSS-Feed/Recalls-RSS/children"
-  ' Dim strXmlSrc As String = "https://cpsc.gov/Newsroom/CPSC-RSS-Feed/Recalls-RSS/children"
-
+  
   ' Path to XSL file.  
   Dim strXslFile As String = Server.MapPath("cpscrss.xsl")
 
